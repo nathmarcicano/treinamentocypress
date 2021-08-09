@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run:mobile": "npx cypress run --config viewportWidth=411,viewportHeight=823",
+    "cypress:run": "npx cypress run",
+    "cypress:run:dash":"npx cypress run --record --key d0abfd03-6be1-4392-8d7a-7952a99223ac"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.0.0"
+  }
+}
